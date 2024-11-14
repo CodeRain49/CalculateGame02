@@ -64,6 +64,7 @@ namespace CalculateGame2
             int selectedOperator = Convert.ToInt32(Console.ReadLine());
             string operatorSelectString = ""; //Convert to string variable type
             ChangeColor("Yellow");
+
             switch (selectedOperator){
                 case 1:
                     Console.WriteLine("---- Addition Game Mode (+) ----");
@@ -80,11 +81,6 @@ namespace CalculateGame2
                     operatorSelectString = "*";
                     break;
 
-                //case 4:
-                //    Console.WriteLine("---- Division Game Mode (/) ----");
-                //    operatorSelectString = "/";
-                //    break;
-
                 default:
                     Console.WriteLine("---- Addition Game Mode (+) ----");
                     operatorSelectString = "+";
@@ -100,8 +96,8 @@ namespace CalculateGame2
             Console.WriteLine("Player name: " + name);
             Console.WriteLine("GET TOTAL SCORE OF: " + total_score);
 
-            // [ALL Function]
-            // Execute all the quiz code with Easy mode selected
+            // [ALL Function run here]
+            // Execute all the code with Easy mode selected
             void Calculation()
             {
                 for (int i = 0; i < 5; i++)
@@ -125,9 +121,7 @@ namespace CalculateGame2
                         case 3:
                             correct_answer = factor1 * factor2;
                             break;
-                        //case 4:
-                        //    correct_answer = factor1 / factor2;
-                        //    break;
+
                         default:
                             Console.WriteLine("//Invalid operator. Defaulting to Addition.//");
                             correct_answer = factor1 + factor2;
@@ -148,7 +142,7 @@ namespace CalculateGame2
                 }
             }
 
-            // Player got the correct answer, +1 point to the total score
+            // correct answer = +1 point -> total score
             void PlayerCorrect() 
             {
                 ChangeColor("Green");
@@ -158,7 +152,7 @@ namespace CalculateGame2
                 total_score++;
             }
 
-            // Player got wrong answer, no point
+            // wrong answer >> show correct answer
             void PlayerGetWrongAnswer()
             {
                 ChangeColor("Red");
@@ -167,7 +161,7 @@ namespace CalculateGame2
                 ChangeColor("default");
             }
 
-            // Random number for easy mode >100
+            // Random number, Easy mode All Number < 100
             void RandomNumberEasyMode()
             {
                 Random rnd = new Random();
@@ -176,7 +170,7 @@ namespace CalculateGame2
                 Console.WriteLine(factor1 + " " + operatorSelectString + " " + factor2);
             }
 
-            // Random number for hard mode >1000
+            // Random number, Hard mode All Number < 1000
             void RandomNumberHardMode()
             {
                 Random rnd = new Random();
@@ -185,7 +179,7 @@ namespace CalculateGame2
                 Console.WriteLine(factor1 + " " + operatorSelectString + " " + factor2);
             }
 
-            // Change color for aesthetics
+            // Change console color
             void ChangeColor(string color){
                 switch (color)
                 {
