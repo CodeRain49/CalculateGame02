@@ -5,3 +5,10 @@ C:\Users\NEXT Speed\source\repos\CalculateGame2\bin\Debug\CalculateGame2.exe
 C:\Users\NEXT Speed\source\repos\CalculateGame2\bin\Debug\CalculateGame2.pdb
 C:\Users\NEXT Speed\source\repos\CalculateGame2\obj\Debug\CalculateGame2.exe
 C:\Users\NEXT Speed\source\repos\CalculateGame2\obj\Debug\CalculateGame2.pdb
+C:\Users\NEXT Speed\source\repos\2567\CalculateGame2\bin\Debug\CalculateGame2.exe.config
+C:\Users\NEXT Speed\source\repos\2567\CalculateGame2\bin\Debug\CalculateGame2.exe
+C:\Users\NEXT Speed\source\repos\2567\CalculateGame2\bin\Debug\CalculateGame2.pdb
+C:\Users\NEXT Speed\source\repos\2567\CalculateGame2\obj\Debug\CalculateGame2.csproj.AssemblyReference.cache
+C:\Users\NEXT Speed\source\repos\2567\CalculateGame2\obj\Debug\CalculateGame2.csproj.CoreCompileInputs.cache
+C:\Users\NEXT Speed\source\repos\2567\CalculateGame2\obj\Debug\CalculateGame2.exe
+C:\Users\NEXT Speed\source\repos\2567\CalculateGame2\obj\Debug\CalculateGame2.pdb

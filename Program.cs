@@ -94,7 +94,7 @@ namespace CalculateGame2
             Console.WriteLine();
             ChangeColor("Cyan");
             Console.WriteLine("Player name: " + name);
-            Console.WriteLine("GET TOTAL SCORE OF: " + total_score);
+            Console.WriteLine("GET TOTAL SCORE OF: " + total_score + "/5");
 
             // [ALL Function run here]
             // Execute all the code with Easy mode selected
